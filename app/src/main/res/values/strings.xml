@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cartão Refeição</string>
+    <string name="HARDWARE_EMU">goldfish</string>
+    <string name="ACTION_SETTINGS">Definições</string>
+    <string name="ACTION_ABOUT">Acerca...</string>
+    <string name="NUMERO_CARTAO">Número de cartão</string>
+    <string name="CVV">CVV</string>
+    <string name="CARD_SAVE">Guardar</string>
+    <string name="CONSULTA_SALDO">Consulta Saldo</string>
+    <string name="EURO">--- €</string>
+    <string name="REMENBER">Memorizar</string>
+    <string name="WAIT">Aguarde...</string>
+    <string name="NOCARD">Introduza o número de cartão em definições.</string>
+    <string name="NO_NET">Sem ligação á internet</string>
+    <string name="CANT_GET_BALANCE">Impossivel obter saldo</string>
+    <string name="LOGIN_NO_NET">Erro de comunicação no login.</string>
+    <string name="BALANCE_NO_NET">Erro de comunicação no login.</string>
+    <string name="LOGIN_ERROR">Falha no login</string>
+    <string name="STORED">Guardado!</string>
+    <string name="ABOUT">JPF, V7.2 2015.</string>
+
+    <!-- TOKEN FILTER -->
+    <string name="KEY_LOGIN_TOKEN">var sessionId</string>
+    <string name="KEY_BALANCE_TOKEN_START">&lt;span class=\"money\"></string>
+    <string name="KEY_BALANCE_TOKEN_END">&lt;/span></string>
+
+    <!-- URLS URLS -->
+    <string name="URL_LOGIN">https://www.particulares.santandertotta.pt/bepp/sanpt/usuarios/loginrefeicao?accion=3&amp;identificacionUsuario=#USER#&amp;claveConsultiva=#PASS#</string>
+    <string name="URL_BALANCE">https://www.particulares.santandertotta.pt/bepp/sanpt/tarjetas/listadomovimientostarjetarefeicao/0,,,0.shtml</string>
+    <string name="URL_CONTENT_TYPE">application/x-www-form-urlencoded</string>
+    <string name="URL_USER_AGENT">Faustino/7.2</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="LAST_UPDATE_DATE">Última consulta:</string>
+    <string name="NO_UPDATE_DATE">---</string>
+    <string name="title_activity_card">Definições</string>
+    <string name="action_settings">Definições</string>
+    <string name="ACTION_REFRESH">Actualizar</string>
+    <string name="title_activity_transactions">Movimentos</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

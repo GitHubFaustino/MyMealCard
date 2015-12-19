@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fstn.mobile.mymealcard.TransactionsActivity">
+
+
+    <item android:id="@+id/action_about"
+        android:title="@string/ACTION_ABOUT"
+        android:orderInCategory="200"
+        android:showAsAction="never" />
+
+
+
+</menu>
